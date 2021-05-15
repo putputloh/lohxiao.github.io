@@ -1,0 +1,99 @@
+    body {
+    	background-color: #000000;
+  	background-image: url('img/Background.png');
+    }
+    h1 {
+    	padding: 10px;
+    	font-family: "Comic Sans MS", serif, sans-serif; 
+    	font-weight: bold;
+	text-align: center;
+        border: 10px double #ffffff;
+        color: #ffffff;
+    }
+    .image {
+    	float: right;
+        border: 2px ridge #4e0075;
+        color: #ffffff;
+    }
+    a:visited, a:link {
+	color: #ffffff;
+    	text-decoration: none;
+    }
+    a:hover, a:active {
+	color: #FF00FF;
+	text-decoration: underline;
+    }
+    .Scrollpane {
+	position: fixed;
+	float: left;
+        border: 3px solid rgb(255,255,255);
+    }
+    .Scrollpane td {
+    	width: 120px;
+        margin: 0;
+    	padding: 5px;
+    	border: 3px solid rgb(255,255,255);
+        background-color: #8500a1;
+        color: #ffffff;
+    	font-family: serif, sans-serif;
+    	font-size: 18px;
+    }
+    .aligner {
+	display: flex;
+ 	align-items: center;
+    }
+    h1 .aligner {
+    	justify-content: center;
+    }
+    .text {
+    	margin-left: 3px;
+    }
+    h5 {
+        position: relative;
+    	left: 25px; 
+    	font-weight: bold;
+    	font-size: 18px;
+    	text-decoration: underline;
+    }
+    .container {
+    	padding-bottom: 6px;
+    }
+    .container table, th, td {
+    	text-align: center;
+    	border: 1px solid rgb(241,156,187);
+    }
+    .container th, td {
+    	padding: 6px;
+    }
+    .content {
+    	position: relative;
+    	margin: auto;
+        margin-left: 160px;
+        margin-right: 270px;
+        color: #ffffff;
+        background: rgba(0, 0, 0, 0.7);
+	border: 3px solid rgb(255,255,255);
+    }
+    .content h3 {
+    	margin-top: 0px;
+        margin-bottom: 6px;
+	margin-left: 6px;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .content .text {
+    	margin-top: 0px;
+	margin-bottom: 6px;
+	margin-left: 6px;
+        margin-right: 6px;
+    	line-height: 1.5;
+    }
+    .footer {
+        clear: both;
+        margin-top: 20px;
+        text-align: right;
+    	color: #ffffff;
+        font-size: 12px;
+    }
+
+  
