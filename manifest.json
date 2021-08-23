@@ -1,5 +1,5 @@
 {
-    "name": "loh-xiao",
+    "name": "LOH XIAO",
     "short_name": "xiao",
     "icons": [
         {
@@ -42,7 +42,6 @@
             "src": "\/favicon.ico\/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image\/png",
-            "purpose": "any maskable",
             "density": "5.0"
         },
         {
