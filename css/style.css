@@ -1,31 +1,39 @@
+    html {
+        display: flex;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
     body {
     	background-color: #000000;
-  	background-image: url('img/Background.png');
+  	    background-image: url('/img/Background.png');
     }
     h1 {
     	padding: 10px;
     	font-family: "Comic Sans MS", serif, sans-serif; 
     	font-weight: bold;
-	text-align: center;
+	    text-align: center;
         border: 10px double #ffffff;
         color: #ffffff;
     }
     .image {
     	float: right;
-        border: 2px ridge #4e0075;
+        max-width: 100%;
+        border: 3px solid white;
         color: #ffffff;
     }
     a:visited, a:link {
-	color: #ffffff;
+	    color: #ffffff;
     	text-decoration: none;
     }
     a:hover, a:active {
-	color: #FF00FF;
-	text-decoration: underline;
+	    color: #FF00FF;
+	    text-decoration: underline;
     }
     .Scrollpane {
-	position: fixed;
-	float: left;
+	    position: fixed;
+	    float: left;
         border: 3px solid rgb(255,255,255);
     }
     .Scrollpane td {
@@ -39,8 +47,8 @@
     	font-size: 18px;
     }
     .aligner {
-	display: flex;
- 	align-items: center;
+	    display: flex;
+ 	    align-items: center;
     }
     h1 .aligner {
     	justify-content: center;
@@ -72,19 +80,19 @@
         margin-right: 270px;
         color: #ffffff;
         background: rgba(0, 0, 0, 0.7);
-	border: 3px solid rgb(255,255,255);
+	    border: 3px solid rgb(255,255,255);
     }
     .content h3 {
     	margin-top: 0px;
         margin-bottom: 6px;
-	margin-left: 6px;
+	    margin-left: 6px;
         font-size: 30px;
         text-decoration: underline;
     }
     .content .text {
     	margin-top: 0px;
-	margin-bottom: 6px;
-	margin-left: 6px;
+	    margin-bottom: 6px;
+	    margin-left: 6px;
         margin-right: 6px;
     	line-height: 1.5;
     }
