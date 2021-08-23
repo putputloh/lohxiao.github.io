@@ -103,5 +103,11 @@
     	color: #ffffff;
         font-size: 12px;
     }
+    @media only screen and (max-width: 360px){
+        .content {
+            margin-left: 26.3%;
+            margin-right: 44.5%;
+        }
+    }
 
   
